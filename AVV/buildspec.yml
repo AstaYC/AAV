@@ -21,4 +21,4 @@ artifacts:
   name: $(date +%Y-%m-%dT%H:%M:%S).zip
 proxy:
   upload-artifacts: yes
-  logs: yes
+  logs: yes 
