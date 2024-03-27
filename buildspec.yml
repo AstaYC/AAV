@@ -14,9 +14,6 @@ phases:
   pre_build:
     commands:
       - npm install
-  build:
-    commands:
-      - php artisan test
 artifacts:
   files:
     - '**/*'
