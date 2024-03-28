@@ -32,5 +32,6 @@ Route::group([
     Route::post('/register', [AuthController::class , 'register']);
     Route::post('/update', [AuthController::class , 'updateUser']);
     Route::post('/delete', [AuthController::class , 'deleteUser']);
+    Route::post('/displayVoiture', [voitureController::class , 'display']);
     Route::post('/estimation', [voitureController::class , 'estimation']);
 });
