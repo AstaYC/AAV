@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\voitureController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -31,4 +32,5 @@ Route::group([
     Route::post('/register', [AuthController::class , 'register']);
     Route::post('/update', [AuthController::class , 'updateUser']);
     Route::post('/delete', [AuthController::class , 'deleteUser']);
+    Route::post('/estimation', [voitureController::class , 'estimation']);
 });
