@@ -35,3 +35,4 @@ Route::group([
     Route::post('/displayVoiture', [voitureController::class , 'display']);
     Route::post('/estimation', [voitureController::class , 'estimation']);
 });
+
